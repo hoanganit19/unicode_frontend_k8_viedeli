@@ -4,3 +4,8 @@
 - HTML
 - CSS
 - SCSS
+##Kỹ thuật sử dụng
+- Phân tích giao diện
+- Cắt Photoshop
+- Chia module, component trong SCSS
+- Tối ưu Responsive
