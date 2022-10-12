@@ -15,3 +15,10 @@ Hướng dẫn sử dụng Photoshop:
 2. Kích hoạt Ruler 
 
 - Vào View => Ruler hoặc bấm tổ hợp phím Ctrl + R 
+
+
+Các lệnh cập nhật code lên git
+
+git add .
+git commit -m "Tin nhan"
+git push
