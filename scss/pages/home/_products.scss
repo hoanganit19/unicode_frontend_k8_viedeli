@@ -1,0 +1,52 @@
+.products-box {
+  @include base-section;
+  background: url("../images/product-bg.png") no-repeat center 130px;
+  background-size: contain;
+
+  .products-box__title {
+    text-align: center;
+    color: #403c34;
+    font-size: 1.71rem;
+    font-family: LatoSemibold, sans-serif;
+
+    span {
+      color: $primaryColor;
+      font-family: FontBox, sans-serif;
+      font-size: 5.14rem;
+    }
+  }
+
+  .products-box__lists {
+    position: relative;
+    max-width: 90%;
+    margin: 20px auto;
+    .products-box--item {
+      text-align: center;
+      .item__name {
+        a {
+          color: #1f1f1f;
+          font-size: 1.9rem;
+        }
+      }
+
+      .item__category {
+        color: $primaryColor;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+    }
+
+    .products-box__lists--controls {
+      .products-box--prev {
+        @include base-controls-nav(40%);
+        left: 0px;
+      }
+
+      .products-box--next {
+        @include base-controls-nav(40%);
+        right: 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.footer{
+    @include base-section;
+    .footer__item{
+        &.logo-footer{
+            text-align: center;
+            img{
+                width: 100px;
+            }
+        }
+        .footer__item--title{
+            text-transform: uppercase;
+        }
+        .footer__item--content{
+            margin: 20px 0;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+
+        &.subscribe{
+            form{
+                margin: 15px 0;
+                .footer__item--input{
+                    position: relative;
+                    input{
+                        background: #e6e6e6;
+                        width: 100%;
+                        padding: 10px 10px 10px 30px;
+                    }
+
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        top: 0px;
+                        bottom: 0px;
+                        left: 10px;
+                        width: 15px;
+                        height: 35px;
+                        background-size: 100% !important;
+                        background: url('../images/email-icon.png') no-repeat center center;
+                    }
+                }
+            }
+
+            .footer__item--social{
+                ul{
+                    display: flex;
+                    li{
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+}

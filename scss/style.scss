@@ -1,0 +1,22 @@
+//Import Core
+
+@import "core/variables";
+@import "core/reset";
+@import "core/fonts";
+@import "core/base";
+@import "core/functions";
+@import "core/mixin";
+
+//Import Components
+@import "components/header";
+@import "components/footer";
+
+//Import Pages
+
+@import "pages/home/banner";
+@import "pages/home/whyus";
+@import "pages/home/products";
+@import "pages/home/location";
+@import "pages/home/news";
+@import "pages/home/partners";
+@import "pages/home/contact";

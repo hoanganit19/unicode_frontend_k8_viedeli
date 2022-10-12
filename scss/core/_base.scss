@@ -1,0 +1,48 @@
+html{
+    font-size: $fontSize;
+}
+
+body{
+    font-size: 1rem;
+    color: $textColor;
+    line-height: 1.5;
+    font-family: $fontFamily;
+}
+
+a{
+    color: $linkColor;
+    text-decoration: none;
+
+    &:hover{
+        color: $primaryColor;
+    }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+ol{
+    @extend ul;
+}
+
+.hide-desktop{
+   
+    @media screen and (min-width: 1200px) {
+        display: none !important;
+    }
+}
+
+.no-ypadding{
+    margin-top: 0;
+}
+
+.no-ypadding>*{
+    padding-top: 0;
+    padding-bottom: 0;
+}

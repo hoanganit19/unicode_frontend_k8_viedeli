@@ -1,0 +1,33 @@
+.news-box{
+    @include base-section;
+    .news-box__title{
+        text-transform: uppercase;
+        font-size: 2.14rem;
+        color: #141414;
+        text-align: center;
+    }
+
+    .news-box__lists{
+        margin: 20px 0;
+        .news-box--item{
+            img{
+                width: 100%;
+            }
+            .item__category{
+                color: #80765f;
+                font-family: LatoSemibold, sans-serif;
+                text-transform: uppercase;
+                margin: 15px 0;
+            }
+
+            h3{
+                margin-bottom: 15px;
+                
+                a{
+                    color: #171717;
+                    font-size: 1.42rem;
+                }
+            }
+        }
+    }
+}

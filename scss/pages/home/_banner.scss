@@ -1,0 +1,43 @@
+.banner-box{
+    position: relative;
+
+    .banner-box__controls{
+        .banner-box__controls--prev{
+           @include base-controls-nav;
+           left: 10px;
+        }
+
+
+        .banner-box__controls--next{
+            @include base-controls-nav;
+            right: 10px;
+        }
+    }
+
+    .banner-box__dots{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 25px;
+        display: flex;
+        justify-content: center;
+
+        span{
+            display: block;
+            width: 10px;
+            height: 10px;
+            border: 1px solid #fff;
+            margin: 0 5px;
+            border-radius: 50%;
+            cursor: pointer;
+
+            &.active{
+                background: #fff;
+            }
+
+            &:hover{
+                @extend .active;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@mixin base-controls-nav($top: 50%) {
+    position: absolute;
+    top: $top;
+    background: #fff;
+    color: #333;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+@mixin base-section($space: 30px) {
+    padding: $space 0;
+}

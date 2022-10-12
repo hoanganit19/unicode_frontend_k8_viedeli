@@ -1,0 +1,17 @@
+Công việc cắt PSD => HTML - CSS là gì?
+
+- Chuyển từ bản thiết kế dạng ảnh => giao diện web (html, css, js)
+- Cắt hình ảnh, đo đạc, lấy tài nguyên (text, font chữ, màu sắc,...)
+- Học sử dụng phần mềm: Photoshop, Adobe XD, Figma,....
+
+Hướng dẫn sử dụng Photoshop:
+
+1. Đổi đơn vị đo 
+
+- Bấm tổ hợp phím Ctrl + K
+- Chọn Units & Ruler
+- Chuyển tất cả sang pixel
+
+2. Kích hoạt Ruler 
+
+- Vào View => Ruler hoặc bấm tổ hợp phím Ctrl + R 
